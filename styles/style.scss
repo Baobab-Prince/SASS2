@@ -1,6 +1,5 @@
 $primary: #84ddff;
 $splash: #f37176;
-$font-size-large: 60px;
 
 body {
   background: $primary;
@@ -14,4 +13,18 @@ div {
 article {
   background: $primary;
   border: 1px solid $splash;
+}
+
+@mixin big-button($primary, $splash) {
+  display: flex;
+  color: $splash;
+  background: $primary;
+}
+
+.btn-green {
+  @include big-button(green, purple);
+}
+
+.btn-red {
+  @include big-button(red, white);
 }

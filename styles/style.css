@@ -11,4 +11,20 @@ article {
   background: #84ddff;
   border: 1px solid #f37176;
 }
+
+.btn-green {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: purple;
+  background: green;
+}
+
+.btn-red {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  background: red;
+}
 /*# sourceMappingURL=style.css.map */
