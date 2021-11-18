@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 $primary: #84ddff;
 $splash: #f37176;
+$fancy: 'Poppins';
 
 body {
   background: $primary;
   color: $splash;
+  font-family: $fancy;
 }
 
 div {
@@ -13,12 +16,14 @@ div {
 article {
   background: $primary;
   border: 1px solid $splash;
+  font-family: $fancy;
 }
 
 @mixin big-button($primary, $splash) {
   display: flex;
   color: $splash;
   background: $primary;
+  font-family: $fancy;
 }
 
 .btn-green {
