@@ -1,0 +1,17 @@
+$primary: #84ddff;
+$splash: #f37176;
+$font-size-large: 60px;
+
+body {
+  background: $primary;
+  color: $splash;
+}
+
+div {
+  background: $primary;
+}
+
+article {
+  background: $primary;
+  border: 1px solid $splash;
+}
